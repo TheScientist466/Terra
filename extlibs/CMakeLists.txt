@@ -13,3 +13,6 @@ add_subdirectory(SFML)
 set(IMGUI_SFML_FIND_SFML false)
 set(IMGUI_DIR "../imgui")
 add_subdirectory(imgui-sfml)
+
+# google test
+add_subdirectory(googletest)
